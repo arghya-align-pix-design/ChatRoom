@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/arghya-align-pix-design.io/ChatRoom/static/css/main.7bb75e8e.css",
-    "main.js": "/arghya-align-pix-design.io/ChatRoom/static/js/main.34b9e898.js",
-    "static/js/453.690ef1dc.chunk.js": "/arghya-align-pix-design.io/ChatRoom/static/js/453.690ef1dc.chunk.js",
-    "static/media/1293436.jpg": "/arghya-align-pix-design.io/ChatRoom/static/media/1293436.67627d855002d1a277d2.jpg",
-    "index.html": "/arghya-align-pix-design.io/ChatRoom/index.html",
-    "main.7bb75e8e.css.map": "/arghya-align-pix-design.io/ChatRoom/static/css/main.7bb75e8e.css.map",
-    "main.34b9e898.js.map": "/arghya-align-pix-design.io/ChatRoom/static/js/main.34b9e898.js.map",
-    "453.690ef1dc.chunk.js.map": "/arghya-align-pix-design.io/ChatRoom/static/js/453.690ef1dc.chunk.js.map"
+    "main.css": "/arghya-align-pix-design.github.io/ChatRoom/static/css/main.122a8705.css",
+    "main.js": "/arghya-align-pix-design.github.io/ChatRoom/static/js/main.bc244204.js",
+    "static/js/453.690ef1dc.chunk.js": "/arghya-align-pix-design.github.io/ChatRoom/static/js/453.690ef1dc.chunk.js",
+    "static/media/1293436.jpg": "/arghya-align-pix-design.github.io/ChatRoom/static/media/1293436.67627d855002d1a277d2.jpg",
+    "index.html": "/arghya-align-pix-design.github.io/ChatRoom/index.html",
+    "main.122a8705.css.map": "/arghya-align-pix-design.github.io/ChatRoom/static/css/main.122a8705.css.map",
+    "main.bc244204.js.map": "/arghya-align-pix-design.github.io/ChatRoom/static/js/main.bc244204.js.map",
+    "453.690ef1dc.chunk.js.map": "/arghya-align-pix-design.github.io/ChatRoom/static/js/453.690ef1dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bb75e8e.css",
-    "static/js/main.34b9e898.js"
+    "static/css/main.122a8705.css",
+    "static/js/main.bc244204.js"
   ]
 }
