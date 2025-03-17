@@ -1,0 +1,28 @@
+/* src/styles/ChatRoom.css */
+.container {
+    background-image: url("../../../../public/1293436.jpg");
+    /*background-image: url('/path-to-your-image.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    overflow-y: auto;
+    display: flex;
+    margin: 4%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    width: 90vw;
+    /* opacity:0.5; */
+    /*align-items: center;*/
+    padding: 10px;
+    border: 1px solid #000000;
+    font-family: Arial, sans-serif;
+  }
+
+  .head{
+    background: linear-gradient(rgba(255, 20, 20, 0.774),rgb(212, 100, 2));
+    display: inline-block;
+    width:fit-content;
+    padding:2px;
+  }
+  

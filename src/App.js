@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ChatRoom from "./components/Frontend/ChatRoom/ChatRoom";
+import SignUp from "./components/Frontend/SignUp/SignUp";
+import OtpValidation from "./components/Frontend/SignUp/OtpValidation";
+import SignIn from "./components/Frontend/SignIn/SignIn";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SignUp />} /> 
+        <Route path="/validate-otp" element={<OtpValidation />} /> 
+        <Route path="/signIn" element={ <SignIn/>} />  
+        <Route path="/ChatRoom" element={<ChatRoom />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,76 @@
+/* SignIn.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #001f54, #003d99);
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 40px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #001f54;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #003d99;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cfd8dc;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #003d99;
+  }
+  
+  .button {
+    background-color: #001f54;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #003d99;
+  }
+  
+  .button:active {
+    background-color: #001f54;
+  }
+  
