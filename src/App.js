@@ -8,6 +8,7 @@ import SignIn from "./components/Frontend/SignIn/SignIn";
 
 const App = () => {
   return (
+    <div className="App">
     <Router>
       <Routes>
         <Route path="/" element={<SignUp />} /> 
@@ -16,6 +17,8 @@ const App = () => {
         <Route path="/ChatRoom" element={<ChatRoom />} />
       </Routes>
     </Router>
+    </div>
+    
   );
 };
 
